@@ -1,0 +1,42 @@
+Node,Name,Label,Óï¾ä
+1,Amada Emory,Female,"CREATE( _0:Female{id:1,name:'Amada Emory'});"
+2,Rana Seely,Female,"CREATE( _1:Female{id:2,name:'Rana Seely'});"
+3,Detra Thatcher,Female,"CREATE( _2:Female{id:3,name:'Detra Thatcher'});"
+4,Melda Reza,Female,"CREATE( _3:Female{id:4,name:'Melda Reza'});"
+5,Shana Willems,Female,"CREATE( _4:Female{id:5,name:'Shana Willems'});"
+6,Sharonda Peele,Female,"CREATE( _5:Female{id:6,name:'Sharonda Peele'});"
+7,Dagny Agee,Female,"CREATE( _6:Female{id:7,name:'Dagny Agee'});"
+8,Tisa Woodman,Female,"CREATE( _7:Female{id:8,name:'Tisa Woodman'});"
+9,Shelba Mutchler,Female,"CREATE( _8:Female{id:9,name:'Shelba Mutchler'});"
+10,Anderson Spagnola,Male,"CREATE( _9:Male{id:10,name:'Anderson Spagnola'});"
+11,Pamala Forward,Female,"CREATE( _10:Female{id:11,name:'Pamala Forward'});"
+12,Melva Fairchild,Female,"CREATE( _11:Female{id:12,name:'Melva Fairchild'});"
+13,Antione Selman,Male,"CREATE( _12:Male{id:13,name:'Antione Selman'});"
+14,Carmelia Cali,Female,"CREATE( _13:Female{id:14,name:'Carmelia Cali'});"
+15,Fairy Daughtery,Female,"CREATE( _14:Female{id:15,name:'Fairy Daughtery'});"
+16,Stefany Mcamis,Female,"CREATE( _15:Female{id:16,name:'Stefany Mcamis'});"
+17,Kermit Meaney,Male,"CREATE( _16:Male{id:17,name:'Kermit Meaney'});"
+18,Williemae Dossantos,Female,"CREATE( _17:Female{id:18,name:'Williemae Dossantos'});"
+19,Marth Sparling,Female,"CREATE( _18:Female{id:19,name:'Marth Sparling'});"
+20,Jarvis Noland,Male,"CREATE( _19:Male{id:20,name:'Jarvis Noland'});"
+From,Relationship Type,To,
+1,MOTHER_OF,11,CREATE _0-[r1:MOTHER_OF]->_10  
+1,MOTHER_OF,12,CREATE _0-[r2:MOTHER_OF]->_11  
+1,MOTHER_OF,13,CREATE _0-[r3:MOTHER_OF]->_12  
+2,MOTHER_OF,14,CREATE _1-[r4:MOTHER_OF]->_13  
+2,MOTHER_OF,15,CREATE _1-[r5:MOTHER_OF]->_14  
+2,MOTHER_OF,16,CREATE _1-[r6:MOTHER_OF]->_15  
+3,MOTHER_OF,17,CREATE _2-[r7:MOTHER_OF]->_16  
+3,MOTHER_OF,18,CREATE _2-[r8:MOTHER_OF]->_17  
+3,MOTHER_OF,19,CREATE _2-[r9:MOTHER_OF]->_18  
+10,FATHER_OF,20,CREATE _9-[r10:FATHER_OF]->_19  
+14,MOTHER_OF,1,CREATE _13-[r11:MOTHER_OF]->_0  
+11,MOTHER_OF,2,CREATE _10-[r12:MOTHER_OF]->_1  
+11,MOTHER_OF,3,CREATE _10-[r13:MOTHER_OF]->_2  
+12,MOTHER_OF,4,CREATE _11-[r14:MOTHER_OF]->_3 
+12,MOTHER_OF,5,CREATE _11-[r15:MOTHER_OF]->_4 
+12,MOTHER_OF,6,CREATE _11-[r16:MOTHER_OF]->_5 
+17,FATHER_OF,7,CREATE _16-[r17:FATHER_OF]->_6 
+13,MOTHER_OF,8,CREATE _12-[r18:MOTHER_OF]->_7 
+13,MOTHER_OF,9,CREATE _12-[r19:MOTHER_OF]->_8 
+20,FATHER_OF,1,CREATE _19-[r20:FATHER_OF]->_0 
